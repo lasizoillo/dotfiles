@@ -5,7 +5,16 @@
 
 - link:
     ~/.vim: vim 
-    ~/.vimrc: vimrc 
+    ~/.vimrc: vimrc
+    ~/.config/i3: config/i3
+    ~/.config/i3status-rust: config/i3status-rust
+    ~/.config/i3wsr: config/i3wsr
 
 - shell:
   - [sudo apt remove nano, Quitando mierda]
+  - >
+    sudo apt install -y
+    vim neovim exuberant-ctags build-essential
+    i3 cargo libxcb1-dev libdbus-1-dev
+  - [which i3status-rs || cargo install --git https://github.com/greshake/i3status-rust i3status-rs, Install i3status-rust bar]
+  - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
