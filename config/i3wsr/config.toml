@@ -1,3 +1,6 @@
 [icons]
 qterminal = "\uf120"
 pcmanfm-qt = "\uf15b"
+Gnome-terminal = "\uf120"
+Slack = "\uf198"
+# jetbrains-pycharm = "P"

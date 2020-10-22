@@ -185,3 +185,5 @@ bar {
 }
 
 workspace 9 output HDMI-2
+bindsym $mod+Tab exec i3-msg move workspace to output right
+
