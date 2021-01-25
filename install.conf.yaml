@@ -9,13 +9,17 @@
     ~/.config/i3: config/i3
     ~/.config/i3status-rust: config/i3status-rust
     ~/.config/i3wsr: config/i3wsr
+    ~/.config/nvim: config/nvim
     ~/.bash_aliases: .bash_aliases
 
 - shell:
   - [which nano && sudo apt remove nano || echo "La basura ya se quito", Quitando mierda]
+  - [sudo add-apt-repository ppa:neovim-ppa/unstable && sudo apt update, Add support for neovim 0.5 with language server support]
   - >
     sudo apt install -y
-    vim neovim exuberant-ctags build-essential
+    vim neovim exuberant-ctags build-essential fzf
     i3 cargo libxcb1-dev libdbus-1-dev fonts-font-awesome
+  - [sudo pip install -U neovim, Install/Update neovim python package]
+  - [sudo pip install -U msgpack, Install/Update neovim deoplete python dependency]
   - [which i3status-rs || cargo install --git https://github.com/greshake/i3status-rust i3status-rs, Install i3status-rust bar]
   - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
