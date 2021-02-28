@@ -7,18 +7,6 @@ icons = "awesome"
 ## max_width = 75
 
 [[block]]
-block = "custom"
-command = "echo '\uf07b Files'"
-interval = "once"
-on_click = "pcmanfm-qt"
-
-[[block]]
-block = "custom"
-command = "echo '\uf269 Firefox'"
-interval = "once"
-on_click = "firefox"
-
-[[block]]
 block = "net"
 device = "wlp2s0"
 # format = "{ssid} {signal_strength} {ip} {speed_down} {speed_up}"
