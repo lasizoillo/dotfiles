@@ -11,6 +11,7 @@
     ~/.config/i3wsr: config/i3wsr
     ~/.config/nvim: config/nvim
     ~/.bash_aliases: .bash_aliases
+    ~/.local/share/i3status-rust: share/i3status-rust
 
 - shell:
   - [which nano && sudo apt remove nano || echo "La basura ya se quito", Quitando mierda]
