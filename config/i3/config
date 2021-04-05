@@ -199,3 +199,5 @@ bindsym $mod+Tab exec i3-msg move workspace to output right
 
 ## exec --no-startup-id swaymsg input '*' xkb_layout es
 ## exec --no-startup-id swaymsg input '*' xkb_options ctrl:nocaps
+
+bindsym Print exec /usr/bin/flameshot gui
