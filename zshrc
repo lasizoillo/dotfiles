@@ -78,7 +78,6 @@ plugins=(
 	bgnotify
 	cargo
 	dirhistory
-	django
 	docker
 	docker-compose
 	emoji
@@ -93,7 +92,6 @@ plugins=(
 	nmap
 	pip
 	pj
-	pyenv
 	pylint
 	python
 	rust
@@ -102,6 +100,7 @@ plugins=(
 	systemd
 	tig
 	web-search
+	zsh-completions
 )
 
 PROJECT_PATHS=(~/work ~/devel ~/admin)
