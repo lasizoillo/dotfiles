@@ -76,9 +76,8 @@ plugins=(
 	ansible
 	direnv
 	bgnotify
-	cargo
+	rust
 	dirhistory
-	django
 	docker
 	docker-compose
 	emoji
@@ -97,7 +96,6 @@ plugins=(
 	pylint
 	python
 	rust
-	rustup
 	golang
 	systemd
 	tig
