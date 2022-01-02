@@ -27,3 +27,5 @@
   - [which i3status-rs || cargo install --git https://github.com/greshake/i3status-rust i3status-rs, Install i3status-rust bar]
   - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
   - [test -d ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Rename i3 workspaces with apps]
+  - [test -d ~/.oh-my-zsh/custom/plugins/zsh-completions || git clone https://github.com/clarketm/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions, Add completitions to zsh]
+  - [bash <(curl -Ss https://my-netdata.io/kickstart-static64.sh) , netdata]
