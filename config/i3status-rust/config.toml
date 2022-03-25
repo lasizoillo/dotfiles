@@ -47,6 +47,8 @@ format = "{1m}"
 
 [[block]]
 block = "sound"
+# format = "{volume} {output_description}"
+on_click = "gnome-control-center sound"
 
 [[block]]
 block = "xrandr"
@@ -56,3 +58,4 @@ resolution = true
 block = "time"
 interval = 60
 format = "%a %d/%m %R"
+on_click = "gnome-calendar"
