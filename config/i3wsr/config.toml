@@ -1,7 +1,8 @@
 [icons]
 qterminal = "\uf120"
-pcmanfm-qt = "\uf15b"
 Gnome-terminal = "\uf120"
+terminology = "\uf120"
+pcmanfm-qt = "\uf15b"
 Slack = "\uf198"
 jetbrains-pycharm = "\uf121"
 Amule = "\uf019"

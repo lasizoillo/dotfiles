@@ -76,9 +76,8 @@ plugins=(
 	ansible
 	direnv
 	bgnotify
-	cargo
+	rust
 	dirhistory
-	django
 	docker
 	docker-compose
 	emoji
@@ -93,15 +92,14 @@ plugins=(
 	nmap
 	pip
 	pj
-	pyenv
 	pylint
 	python
 	rust
-	rustup
 	golang
 	systemd
 	tig
 	web-search
+	zsh-completions
 )
 
 PROJECT_PATHS=(~/work ~/devel ~/admin)
@@ -137,3 +135,4 @@ export EDITOR=nvim
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f /usr/share/virtualenvwrapper/virtualenvwrapper.sh ] && source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
