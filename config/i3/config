@@ -55,6 +55,11 @@ bindsym $mod+Shift+q kill
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# start rofi
+## bindsym $mod+d exec --no-startup-id rofi -modi run -show run
+bindsym $mod+i exec --no-startup-id rofi -modi run -show drun -show-icons
+bindsym $mod+Tab exec --no-startup-id rofi -show window -show-icons
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -142,6 +147,10 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# cycle workspaces
+bindsym Ctrl+Shift+Right workspace next
+bindsym Ctrl+Shift+Left workspace prev
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -194,7 +203,7 @@ bar {
 }
 
 workspace 9 output HDMI-2
-bindsym $mod+Tab exec i3-msg move workspace to output right
+# bindsym $mod+Tab exec i3-msg move workspace to output right
 
 
 ## exec --no-startup-id swaymsg input '*' xkb_layout es
