@@ -20,11 +20,12 @@
   - [sudo add-apt-repository ppa:neovim-ppa/unstable && sudo apt update, Add support for neovim 0.5 with language server support]
   - >
     sudo apt install -y
-    vim neovim exuberant-ctags build-essential fzf python3-pip curl python2
+    vim neovim exuberant-ctags build-essential fzf python3-pip curl
     i3 cargo libxcb1-dev libdbus-1-dev fonts-font-awesome brightnessctl flameshot
-    zsh direnv fasd 
-  - [sudo pip install -U neovim, Install/Update neovim python package]
-  - [sudo pip install -U msgpack, Install/Update neovim deoplete python dependency]
+    zsh direnv fasd libssl-dev
+  - [sudo pip3 install -U neovim, Install/Update neovim python package]
+  - [sudo pip3 install -U msgpack, Install/Update neovim deoplete python dependency]
+#  - [curl --proto '=https' --tlsv1.2 -sSf "https://sh.rustup.rs" | sh, install RustUp]
   - [which i3status-rs || cargo install --git https://github.com/greshake/i3status-rust i3status-rs, Install i3status-rust bar]
   - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
   - [test -d ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Rename i3 workspaces with apps]
