@@ -27,6 +27,7 @@
     terminology
   - [sudo pip install -U neovim, Install/Update neovim python package]
   - [sudo pip install -U msgpack, Install/Update neovim deoplete python dependency]
+  - [which lvim || bash <(curl -s "https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh") -y, Install lunarvim"]
   - [which i3status-rs || cargo install --git https://github.com/greshake/i3status-rust i3status-rs, Install i3status-rust bar]
   - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
   - [test -d ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Rename i3 workspaces with apps]
