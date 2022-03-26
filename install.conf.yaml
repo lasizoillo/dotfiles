@@ -22,7 +22,7 @@
     sudo apt install -y
     vim neovim exuberant-ctags build-essential fzf python python-pip-whl python3-pip curl
     i3 cargo libxcb1-dev libdbus-1-dev fonts-font-awesome libssl-dev  brightnessctl flameshot
-    zsh direnv fasd
+    zsh direnv fasd netdata
     libsensors-dev
     terminology
   - [sudo pip install -U neovim, Install/Update neovim python package]
@@ -32,4 +32,3 @@
   - [which i3wsr || cargo install i3wsr, Rename i3 workspaces with apps]
   - [test -d ~/.oh-my-zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Rename i3 workspaces with apps]
   - [test -d ~/.oh-my-zsh/custom/plugins/zsh-completions || git clone https://github.com/clarketm/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions, Add completitions to zsh]
-  - [bash <(curl -Ss https://my-netdata.io/kickstart-static64.sh) , netdata]
